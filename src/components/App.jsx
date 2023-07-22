@@ -1,8 +1,8 @@
 import React from 'react';
-import ContactForm from './Phonebook/ContactForm';
-import ContactList from './Phonebook/ContactItem';
-import Filter from './Phonebook/Filter';
-import css from './Phonebook/Css/App.module.css'
+import ContactForm from './Phonebook/ContactForm/ContactForm';
+import ContactList from './Phonebook/ContactItem/ContactItem';
+import Filter from './Phonebook/Filter/Filter';
+import css from './App.module.css';
 
 class App extends React.Component {
   state = {
